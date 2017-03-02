@@ -16,8 +16,10 @@ public class Principal {
         
         Dado miDado1=new Dado();
         Dado miDado2=new Dado();
+        
         Tablero mitablero= new Tablero();
         mitablero.setVisible(true);
+        
         mitablero.miDadoGrafico1=miDado1;
         mitablero.miDadoGrafico2=miDado2;
             
