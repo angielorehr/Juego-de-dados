@@ -17,6 +17,6 @@ public class Dado {
     
     Random aleatorio= new Random();
    public void lanzar(){
-        valor=aleatorio.nextInt(0-6+1)+6;
+        valor=aleatorio.nextInt(6)+1;
     }
 }
