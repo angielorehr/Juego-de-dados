@@ -130,7 +130,7 @@ public class Tablero extends javax.swing.JFrame {
 
     private void textoDado1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textoDado1ActionPerformed
 
-        Jugador setValor = miJugador.setValor(String.toInteger(this.textoDado1));
+        
     }//GEN-LAST:event_textoDado1ActionPerformed
 
     private void botonLanzarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonLanzarMouseClicked
@@ -145,7 +145,8 @@ public class Tablero extends javax.swing.JFrame {
         this.textoDado1.setText(miCadena);
         
         this.textoDado2.setText(Integer.toString(this.miDadoGrafico2.valor));
-            
+        Jugador setValor = miJugador.setValor(String.valueOf(this.textoDado1));
+        miJugador.setDadito(miCadena);
 
         // TODO add your handling code here:
     }//GEN-LAST:event_botonLanzarMouseClicked
