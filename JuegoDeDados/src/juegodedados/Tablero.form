@@ -45,9 +45,9 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jTextField3" max="32767" attributes="0"/>
-                          <Component id="jTextField4" max="32767" attributes="0"/>
-                          <Component id="jTextField5" pref="180" max="32767" attributes="0"/>
+                          <Component id="textoApuesta" max="32767" attributes="0"/>
+                          <Component id="textoBilletera" max="32767" attributes="0"/>
+                          <Component id="textoMensaje" pref="180" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -68,17 +68,17 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel1" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                  <Component id="jTextField3" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="textoApuesta" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jTextField4" pref="24" max="32767" attributes="0"/>
+                  <Component id="textoBilletera" pref="24" max="32767" attributes="0"/>
                   <Component id="jLabel2" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="jLabel3" max="32767" attributes="0"/>
-                  <Component id="jTextField5" pref="27" max="32767" attributes="0"/>
+                  <Component id="textoMensaje" pref="27" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="19" max="32767" attributes="0"/>
           </Group>
@@ -102,6 +102,9 @@
           <Color blue="99" green="ff" red="99" type="rgb"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textoDado2ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="botonLanzar">
       <Properties>
@@ -129,11 +132,11 @@
         <Property name="text" type="java.lang.String" value="Mensaje"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField3">
+    <Component class="javax.swing.JTextField" name="textoApuesta">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField4">
+    <Component class="javax.swing.JTextField" name="textoBilletera">
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField5">
+    <Component class="javax.swing.JTextField" name="textoMensaje">
     </Component>
   </SubComponents>
 </Form>
