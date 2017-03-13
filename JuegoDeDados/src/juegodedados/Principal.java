@@ -23,7 +23,7 @@ public class Principal {
         mitablero.miDadoGrafico1=miDado1;
         mitablero.miDadoGrafico2=miDado2;
             
-        
+         Jugador miJugador= new Jugador();
     }
   
     

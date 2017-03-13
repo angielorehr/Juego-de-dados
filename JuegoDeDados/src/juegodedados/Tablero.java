@@ -145,14 +145,15 @@ public class Tablero extends javax.swing.JFrame {
         this.textoDado1.setText(miCadena);
         
         this.textoDado2.setText(Integer.toString(this.miDadoGrafico2.valor));
-        Jugador setValor = miJugador.setValor(String.valueOf(this.textoDado1));
-        miJugador.setDadito(miCadena);
+        this.miJugador.lanzar();
+        this.textoBilletera.setText(Integer.toString(miJugador.billetera));
+       
 
         // TODO add your handling code here:
     }//GEN-LAST:event_botonLanzarMouseClicked
 
     private void textoDado2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textoDado2ActionPerformed
-     Jugador setValor = miJugador.setValor(String.toInteger(this.textoDado2));
+   
         // TODO add your handling code here:
     }//GEN-LAST:event_textoDado2ActionPerformed
 
